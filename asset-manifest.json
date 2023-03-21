@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/groundwork-tree/static/css/main.e6c13ad2.css",
+    "main.js": "/groundwork-tree/static/js/main.13420d10.js",
+    "index.html": "/groundwork-tree/index.html",
+    "main.e6c13ad2.css.map": "/groundwork-tree/static/css/main.e6c13ad2.css.map",
+    "main.13420d10.js.map": "/groundwork-tree/static/js/main.13420d10.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.13420d10.js"
+  ]
+}
