@@ -1,13 +1,29 @@
-import './App.css';
+import TreeNode from "./TreeNode"
+
+const data = {
+  name: 'root',
+  children: [
+    {
+      name: 'first child',
+      children: [],
+    },
+  ],
+};
+
 
 function App() {
+  const handleAddChild = (name, parent) => {
+    const newChild = {
+      name,
+      children: []
+    };
+    parent.children.push(newChild);
+
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+    <div>
+      <TreeNode {...data} onAddChild={handleAddChild} />
     </div>
   );
 }

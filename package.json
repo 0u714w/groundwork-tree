@@ -2,7 +2,7 @@
   "name": "groundwork-tree",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://groundwork-dev.github.io/groundwork-tree",
+  "homepage": "https://0u714w.github.io/groundwork-tree",
   "dependencies": {
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
